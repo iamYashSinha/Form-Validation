@@ -31,7 +31,7 @@ function validateForm(){
     }
     if (email.length<6){
         seterror("email", "*Email length is too short");
-        returnval = false;
+        returnval = false; 
     }
    
     
