@@ -8,11 +8,13 @@ body{
     justify-content: center;
     height: 70vh;
     margin-top: 112px;
+    overflow: hidden;
 }
 
 .container{
     background-color: rgba(0, 0, 0, 0.4);  /*css color property*/
     padding: 20px 40px;
+    position: fixed;
     /* margin-bottom: 50px; */
 }
 
@@ -82,4 +84,14 @@ body{
     padding: 5px;
     color: #ff0055;
     position: absolute;
+}
+
+.footer{ 
+  display: flex;
+  margin-top: 550px;
+  margin-left: 8px;
+} 
+
+.footer a{
+  color: #fff;
 }
