@@ -11,6 +11,7 @@ body{
     /* color: #222; */
     padding-bottom: 50px;
     background-color: #dbdbdb;
+    /* overflow: hidden; */
 }
 
 .container{
@@ -91,4 +92,77 @@ margin-left: -163px;
 .forgot{
     padding-left: 20px;
     margin-right: 20px;
+}
+
+.section{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    margin: 131px auto;
+    padding: 21px 0px 27px 0px;
+    border: 2px solid #fff ;
+    border-radius: 13px;
+    max-width: 453px;
+    height: 40vh;
+}
+
+.hero input{
+    padding: 13px;
+    margin-top: 19px;
+    margin-left: 20px;
+    border: 2px solid #828282;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 400px;
+}
+
+
+ .hero button{
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 5px;
+   margin: auto;
+    
+} 
+
+#but1{
+    padding: 9px;
+    margin-top: 22px;
+    margin-left: 280px;
+    background-color: rgb(173, 172, 172);
+    color: rgb(77, 77, 77);
+}
+
+#but1:active {
+    transform: scale(0.98);
+  }
+
+
+#but2{
+    background-color: rgb(73, 140, 240);
+    padding: 9px; 
+}
+
+#but2:active {
+    transform: scale(0.98);
+  }
+
+
+.hero #para1{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.hero #para2{
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+
+.horizontal_line{
+    margin-top: 20px;
 }
