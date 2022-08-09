@@ -11,7 +11,7 @@ body{
     /* color: #222; */
     padding-bottom: 50px;
     background-color: #dbdbdb;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .container{
@@ -60,6 +60,7 @@ body{
     transition: all 0.3s ease-in-out;
 }
 
+
 .logo{
 margin-left: -163px;
 }
@@ -97,6 +98,7 @@ margin-left: -163px;
 .section{
     display: flex;
     background-color: #fff;
+    position: relative;
     justify-content: center;
     margin: 131px auto;
     padding: 21px 0px 27px 0px;
@@ -166,3 +168,13 @@ margin-left: -163px;
 .horizontal_line{
     margin-top: 20px;
 }
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 200px;
+  background-color: #fff;
+}
+
