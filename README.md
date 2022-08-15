@@ -9,4 +9,4 @@
 ![image](https://user-images.githubusercontent.com/71075101/183406560-03e4e927-4705-4857-b45f-b20e278300fe.png)
 
 **Forgot Page**
-![image](image.png)
+![image](https://user-images.githubusercontent.com/71075101/184640432-0c2b941f-6a5a-48b6-84e0-dce662ec8365.png)
