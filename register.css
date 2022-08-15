@@ -8,7 +8,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     /* height: 100vh; */
     margin-top: 12px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .container{
@@ -103,6 +103,10 @@ body{
     border: 2px solid rgb(17, 17, 17);
    }
    
+  .radbut{
+    display: flex;
+    background-color: transparent;
+  }
 
 .form-control ::placeholder{
     font-size: 15px;
