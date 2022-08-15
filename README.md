@@ -8,3 +8,5 @@
 **Register Page** 
 ![image](https://user-images.githubusercontent.com/71075101/183406560-03e4e927-4705-4857-b45f-b20e278300fe.png)
 
+**Forgot Page**
+![image](image.png)
