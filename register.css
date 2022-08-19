@@ -8,7 +8,6 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     /* height: 100vh; */
     margin-top: 12px;
-    overflow: hidden;
 }
 
 .container{
@@ -93,6 +92,11 @@ body{
    }
 
    .form-control#password input{
+    margin-top: -2px;
+    width: 430px;
+   }
+
+   .form-control#cpassword input{
     margin-top: -2px;
     width: 430px;
    }
