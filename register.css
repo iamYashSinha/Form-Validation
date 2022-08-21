@@ -8,6 +8,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     /* height: 100vh; */
     margin-top: 12px;
+    overflow-x: hidden;
 }
 
 .container{
@@ -44,6 +45,12 @@ body{
     margin: 20px 0 40px;   
 }
 
+.form-control p{
+  margin-top: 3px;
+  position: absolute;
+  font-size: small;
+  color: red;
+} 
 
 .form-control input {
      padding: 15px 10px; 
@@ -100,6 +107,12 @@ body{
     margin-top: -2px;
     width: 430px;
    }
+
+   .form-control#phone input{
+    margin-top: -2px;
+    width: 430px;
+   }
+
 
    
    .form-control#gender input{

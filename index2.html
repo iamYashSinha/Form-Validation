@@ -13,7 +13,7 @@
     <div class="container">
         <h1>Sign Up</h1>
         <p class="para0">It's quick and easy</p>
-         <form action="/myaction.php" name="myForm">
+         <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
 
             <!-- Name -->
             <div class="form-control" id="name">
@@ -23,17 +23,17 @@
         
             <!-- Email -->
             <div class="form-control" id="email">
-                <input type="email" placeholder="Email" name="femail" required> <span></span>
+                <input type="email" placeholder="Email" name="femail" required> <p class="formerror"></p>
             </div>
             
          <!-- Password -->
           <div class="form-control" id="password">
-            <input type="password" placeholder="Password" name="password" required> <span></span>
+            <input type="password" placeholder="Password" name="password" required> <p class="formerror"></p>
           </div>
          
          <!-- Confirm Password -->
           <div class="form-control" id="cpassword">
-            <input type="password" placeholder="Confirm Password" name="spass" required> <span class="formerror"></span>
+            <input type="password" placeholder="Confirm Password" name="cpass" required> <p class="formerror"></p>
            </div>
 
            
@@ -43,7 +43,10 @@
             <input id="date" type="date" required>
           </div>
          
-
+            <!-- Phone number -->
+          <div class="form-control" id="phone">
+            <input type="number" placeholder="Mobile number" name="mobile" required> <p class="formerror"></p>
+           </div>
           
           <!-- Gender -->
           <div class="form-control" id="gender">
@@ -76,5 +79,7 @@
           <button class="btn">Sign Up</button>
          </form>
     </div>
+  <script src="register.js"></script>
 </body>
+
 </html>

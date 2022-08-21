@@ -36,12 +36,12 @@ function validateForm(){
    
     
     //password Validation
-    var password = document.forms['myForm']["spass"].value;
+    var password = document.forms['myForm']["password"].value;
     if (password.length < 6){
         // Quiz: create a logic to allow only those passwords which contain atleast one letter, one number and one special character and one uppercase letter
         seterror("password", "*Password should be atleast 6 characters long!");
         returnval = false;
-    } /*else if(password.length>20){
+    } else if(password.length>20){
         seterror("password", "*Password too long!");
         returnval = false;
     } else if (password.search(/\d/) == -1) {
@@ -53,9 +53,20 @@ function validateForm(){
     } else if (password.search(/[^a-zA-Z0-9\!\@\#\$\%\^\&\*\(\)\_\+]/) != -1) {
         seterror("password","bad_char");
         returnval = false;
-    }*/
+    }
 
+    var cpassword = document.forms['myForm']["cpass"].value;
+    if (cpassword != password){
+        seterror("cpassword", "*Password and Confirm password should match!");
+        returnval = false;
+    }
+
+    
+    var phone = document.forms['myForm']["mobile"].value;
+    if (phone.length != 10){
+        seterror("phone", "*Phone number should be of 10 digits!");
+        returnval = false;
+    }
+ 
     return returnval;
 }
-
-
