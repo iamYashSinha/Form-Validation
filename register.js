@@ -70,3 +70,11 @@ function validateForm(){
  
     return returnval;
 }
+
+document.addEventListener("click", () => {
+    Notification.requestPermission().then(perm =>{
+        if(perm === "granted"){
+            new Notification("Fill out this form to register! -Yash here!");
+        }
+    })
+}, {once: true});

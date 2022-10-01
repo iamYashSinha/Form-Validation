@@ -59,3 +59,12 @@ function validateForm(){
 }
 
 
+document.addEventListener("click", () =>{
+    Notification.requestPermission().then(perm =>{
+        if(perm === "granted"){
+            new Notification("Please Sign In");
+        } else{
+            Notification.close();
+        }
+    })
+}, {once: true});
